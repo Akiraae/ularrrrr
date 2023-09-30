@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #022e1c;
+  
+}
+
+h1{
+  padding: 10;
+  margin-left: 0cm;
+  margin-bottom: cm;
+}
+.kotakgame{
+  width: 65vmin;
+  height: 70vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #6D9886;
+}
+
+.detail-game{
+  color: #F7F7F7;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 20px 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.papangame{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+  background: #393E46;
+}
+
+.papangame .makanan {
+  background: #F7F7F7;
+}
+.papangame .kepalaular {
+  background: #cb994a;
+}
